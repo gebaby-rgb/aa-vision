@@ -77,7 +77,6 @@ const dict = {
       { t: 'غرف نوم تمنحك الهدوء', c: 'غرف النوم' },
       { t: 'مطابخ جميلة وسهلة الاستخدام', c: 'المطابخ' },
     ],
-    concept: 'صور توضيحية للتصور وليست مشاريع منفذة',
     stats: {
       title: 'التزامنا في ثلاث نقاط',
       items: [
@@ -192,7 +191,6 @@ const dict = {
       { t: 'Bedrooms that give you calm', c: 'Bedrooms' },
       { t: 'Kitchens that look good and work well', c: 'Kitchens' },
     ],
-    concept: 'Concept visuals, not completed projects',
     stats: {
       title: 'Our commitment in three points',
       items: [

@@ -147,13 +147,11 @@ nav a { font-size: 0.95rem; padding-bottom: 2px; }
 [dir='rtl'] .arrows { flex-direction: row-reverse; }
 .arrows button { width: 50px; height: 50px; border-radius: 50%; border: 1px solid rgba(247, 242, 234, 0.45); background: rgba(20, 18, 16, 0.25); cursor: pointer; display: grid; place-items: center; transition: border-color 0.3s, box-shadow 0.3s; }
 .arrows button:hover { border-color: var(--champ); box-shadow: 0 0 0 4px rgba(230, 207, 164, 0.18); }
-.concept { position: absolute; z-index: 60; top: 96px; inset-inline-end: var(--gutter); font-size: 0.78rem; color: rgba(247, 242, 234, 0.72); }
 @media (max-width: 700px) {
   .hero-ctl .cap, .arrows { display: none; }
   .hero-ctl { justify-content: center; }
   .hero-copy { bottom: 112px; }
-  .concept { top: 86px; }
-}
+  }
 
 /* services: image cards */
 .svc { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(16px, 1.8vw, 24px); }

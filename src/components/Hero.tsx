@@ -109,7 +109,6 @@ export default function Hero({ ready }: { ready: boolean }) {
           </motion.button>
         </div>
       </motion.div>
-      <p className="concept">{t.concept}</p>
     </section>
   )
 }
